@@ -7,6 +7,46 @@
     <title>Glory School - Home</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Founder Story Section */
+        .founder-story {
+            padding: 4rem 0;
+            background: white;
+            text-align: center;
+        }
+        
+        .founder-story h1 {
+            color: #2c3e50;
+            margin-bottom: 1.5rem;
+            font-size: 2.5rem;
+        }
+        
+        .founder-story p {
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #555;
+            padding: 0 20px;
+        }
+        
+        .section-divider {
+            width: 100px;
+            height: 4px;
+            background: #3498db;
+            margin: 2rem auto;
+        }
+        
+        @media (max-width: 768px) {
+            .founder-story {
+                padding: 3rem 1rem;
+            }
+            
+            .founder-story h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="mobile-overlay"></div>
@@ -35,10 +75,10 @@
             </div>
             <div class="menu-socials">
                 <a href="https://web.facebook.com/GlorySchoolEthiopia/" target="_blank" class="social-icon">
-                    <img src="assets/images/Ico/facebook (1).png" width="25px" height="auto"></img>
+                    <img src="assets/images/Ico/facebook (1).png" width="25px" height="auto">
                 </a>
                 <a href="https://www.youtube.com/@gloryschoolethiopia" target="_blank" class="social-icon">
-                    <img src="assets/images/Ico/youtube.png" width="25px" height="auto"></img>
+                    <img src="assets/images/Ico/youtube.png" width="25px" height="auto">
                 </a>
                 <a href="https://t.me/gloryictdp" target="_blank" class="social-icon">
                     <img src="assets/images/Ico/telegram (1).png" width="25px" height="auto">
@@ -75,24 +115,34 @@
         </div>
     </section>
 
+    <!-- New Founder Story Section -->
+    <section class="founder-story">
+        <div class="container">
+            <h1>Glory School</h1>
+            <p>Yodit Meket's journey is one of resilience, passion, and vision. In 2004, when many might have thought starting a new venture while expecting a child was too much, Yodit embarked on a bold path to create a school from scratch. While pregnant, she laid the foundation of Glory School, driven by a dream to provide quality education to her community.</p>
+            <div class="section-divider"></div>
+            <h2>About Us</h2>
+        </div>
+    </section>
+
     <section class="features">
         <div class="container">
             <h2>Glory School</h2>
             <div class="grid">
                 <div class="card">
-                    <img src="assets/images/Ico/crowd-of-users.png" width="65px" height="auto">
-                    <h3>Number of staff</h3>
-                    <p>More than 200 staff.</p>
+                    <img src="assets/images/Ico/crowd-of-users.png" width="65px" height="auto" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+                    <h3>Dedicated Staff</h3>
+                    <p>Over 1400 students learning and growing across our campuses.</p>
                 </div>
                 <div class="card">
                     <img src="assets/images/Ico/people.png" width="65px" height="auto">
-                    <h3>Number of student</h3>
+                    <h3>Thriving Community</h3>
                     <p>With more than 1400 students across more than 3 branches.</p>
                 </div>
                 <div class="card">
                     <img src="assets/images/Ico/branch.png" width="65px" height="auto">
-                    <h3>Branches</h3>
-                    <p>Megenagna, lemhotel and</p>
+                    <h3>Strategic Locations</h3>
+                    <p>Multiple branches including Megenagna and Lembotel for your convenience</p>
                 </div>
             </div>
         </div>
@@ -100,11 +150,20 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Glory School. All rights reserved.</p>
             <div class="social">
-                <a href="https://web.facebook.com/GlorySchoolEthiopia/" target="_blank"><img src="assets/images/Ico/facebook (1).png" width="25px" height="auto"></img></a>
-                <a href="https://www.youtube.com/@gloryschoolethiopia" target="_blank"><img src="assets/images/Ico/youtube.png" width="25px" height="auto"></img></a>
-                <a href="https://t.me/gloryictdp" target="_blank"><img src="assets/images/Ico/telegram (1).png" width="25px" height="auto"></img></a>
+                <a href="https://web.facebook.com/GlorySchoolEthiopia/" target="_blank" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.youtube.com/@gloryschoolethiopia" target="_blank" aria-label="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://t.me/gloryictdp" target="_blank" aria-label="Telegram">
+                    <i class="fab fa-telegram-plane"></i>
+                </a>
+            </div>
+            <p>Transforming lives through quality education since 2004</p>
+            <div class="copyright">
+                © 2025 Glory School. All rights reserved.
             </div>
         </div>
     </footer>
