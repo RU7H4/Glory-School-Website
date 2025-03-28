@@ -99,4 +99,16 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Initialize
     handleResize();
+document.body.style.zoom = "80%";
+    // Fallback for Firefox
+    if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+        document.body.style.transform = "scale(0.8)";
+        document.body.style.transformOrigin = "0 0";
+        document.body.style.width = "125%";
+        document.body.style.height = "125%";
+    }
+
+    // ===== MOBILE MENU FUNCTIONALITY =====
+    const hamburger = document.querySelector('.hamburger');
+    // ... rest of your existing code ...
 });
